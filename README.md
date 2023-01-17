@@ -19,4 +19,6 @@ Follow the instructions in the article above, with the following exceptions:
 
 `yarn install`
 
+Add the `ENDPOINT` and `JWT_TOKEN` environment variables to your environment, `ENDPOINT` being the location of your cloudfront distribution (something like https://1234.cloudfront.net), and `JWT_TOKEN` being an active token (which you can get from the browser using dev tools).
+
 `yarn benchmark`
