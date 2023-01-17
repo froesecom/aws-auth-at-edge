@@ -14,3 +14,9 @@ Follow the instructions in the article above, with the following exceptions:
       ![launch template](https://github.com/froesecom/aws-auth-at-edge/blob/main/src/images/launch-template.png)
   - before launching the stack, change the parameters to match your bucket and bucket prefix:
       ![parameters](https://github.com/froesecom/aws-auth-at-edge/blob/main/src/images/parameters.png)
+
+## To benchmark how fast your authorisation lambda is
+
+`yarn install`
+
+`yarn benchmark`
