@@ -21,4 +21,4 @@ Follow the instructions in the article above, with the following exceptions:
 
 Add the `ENDPOINT` and `JWT_TOKEN` environment variables to your environment, `ENDPOINT` being the location of your cloudfront distribution (something like https://1234.cloudfront.net), and `JWT_TOKEN` being an active token (which you can get from the browser using dev tools).
 
-`yarn benchmark`
+`yarn benchmark` or optionally specify how many concurrent requests you'd like to make `yarn benchmark 1000`
